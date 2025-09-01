@@ -1,74 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Website1</title>
-    <link rel="stylesheet" href="./style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
     <section>
-     <nav> 
+      <nav>
         <img src=./assets/FES.svg class="logo" alt="">
-            <ul>
-              <li><a href="#about">About</a></li>
-              <li><a href="#discord">Discord</a></li>
-              <li><a href="#contact">Contact</a></li>
-            </ul>
-    </nav>
-    <header>
-        <div>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#discord">Discord</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <header>
+        <div class="row">
+          <div>
             <h1>Best Place to Learn FrontEnd</h1>
-            <p class="subheader"> Go from being an absolute beginner to pro with a simplified process</p>            <button>Start Now</button>
+            <p class="subheader">
+              Go from being an absolute beginner to pro with a simplified
+              process
+            </p>
+            <button>Start Now</button>
+          </div>
+          <figure>
+            <img src="./assets/laptop.png" alt="Home Page image" />
+          </figure>
         </div>
-            <figure>
-                <img src="./assets/laptop.png" alt="">
-            </figure>
-     </header>
-</section>
+      </header>
+    </section>
 
-<main>
-    <section id="about">
+    <main>
+      <section id="about">
         <h2>About Us</h2>
-        <div>
-            <p>We are dedicated to providing high-quality resources and tutorials to help you master frontend development. Our mission is to make learning easy and accessible for everyone.</p>
-            <p>Join our community and start your journey towards becoming a frontend expert today!</p>
+        <div class="section_description">
+          <div class="section_description--wrapper">
+            <p class="section_description--para">
+              We are dedicated to providing high-quality resources and tutorials
+              to help you master frontend development. Our mission is to make
+              learning easy and accessible for everyone.
+            </p>
+            <p class="section_description--para">
+              Join our community and start your journey towards becoming a
+              frontend expert today!
+            </p>
+          </div>
+          <figure class="about_image--wrapper">
+            <img src="./assets/about.jpg" alt="" />
+          </figure>
         </div>
-        <figure>
-            <img src="./assets/about.jpg" alt="">
-        </figure>   
-    </section>
+      </section>
 
-    <section id="discord">
+      <section id="discord">
         <h2>Join Our Discord Community</h2>
-        <figure>
-            <img src="./assets/discord.png" alt="">
+        <div class="section_description">
+        <figure class="section_description--wrapper">
+          <img src="./assets/discord.png" alt="" />
         </figure>
-        <div>
-            <p>Join us on Discord and be part of a supportive community that helps you stay motivated and on track with your learning goals.</p>
-            <p>Get access to exclusive content, live coding sessions, and direct support from experienced developers.</p>
+        <div class="";>
+        </div> 
+          <p class="section_description--para">
+            Join us on Discord and be part of a supportive community that helps
+            you stay motivated and on track with your learning goals.
+          </p>
+          <p class="section_description--para">
+            Get access to exclusive content, live coding sessions, and direct
+            support from experienced developers.
+          </p>
         </div>
-    </section>
+      </section>
 
-    <section id="contact">
-            <h2>Contact Us</h2>
-            <form action="">
-                <span>Email</span>
-                <input type="email" placeholder="name@example.com">
-                <span>Message</span>
-                   <textarea type="text" placeholder="Cool website, let's connect"></textarea>
-            </form>
-    </section>
-</main>    
-<footer>
-    <img src="./assets/FES.svg"alt="" >
-    <div>
+      <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="">
+          <span>Email</span>
+          <input type="email" placeholder="name@example.com" />
+          <span>Message</span>
+          <textarea
+            type="text"
+            placeholder="Cool website, let's connect"
+          ></textarea>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <img src="./assets/FES.svg" alt="" />
+      <div>
         <a href="#about">About</a>
         <a href="#discord">Discord</a>
         <a href="#contact">Contact</a>
         <a href="">Courses</a>
-    </div>
-    <p>2025 Copyright Frontend Simplified. All rights reserved.</p>
-</footer>
-</body>
+      </div>
+      <p>Copyright Frontend Simplified. All rights reserved.</p>
+    </footer>
+  </body>
 </html>
